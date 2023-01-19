@@ -1,0 +1,147 @@
+.cat-card {
+  margin: 0 auto;
+  height: auto;
+}
+
+.cat-box {
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 480px;
+  border-radius: 12px;
+  background: #1698d9;
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+}
+
+.cat-block {
+  border-radius: 12px;
+  width: 312px;
+  height: 472px;
+  position: relative;
+  background: url(../../assets/funbox_logo.png) no-repeat, white;
+  background-position: left -24px top 208px;
+  background-size: 368px 360px;
+  padding: 0 0 0 51px;
+  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+  cursor: pointer;
+}
+
+.cat-content {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cat-weight {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+
+  background-color: #1698d9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cat-numbers {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.cat-count {
+  margin-top: 12px;
+}
+
+.cat-val {
+  margin-top: 8px;
+  font-size: 21px;
+}
+
+.cat-desc {
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.cat-head {
+  color: #000;
+  font-weight: 700;
+}
+
+.cat-title {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.cat-type {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.cat-gift {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666;
+}
+
+.cat-buy {
+  color: #fff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.cat-action {
+  cursor: pointer;
+  color: #1698d9;
+  font-weight: 700;
+  text-decoration: underline dashed #1698d9;
+}
+
+.hover {
+  background: #2ea8e6;
+}
+
+.selected {
+  background: #d91667;
+}
+
+.selected-hover {
+  background: #e52e7a;
+}
+
+.cat-hover {
+  color: #e52e7a;
+}
+
+.text-disabled {
+  color: #ffff66;
+}
+
+.disabled {
+  background: #b3b3b3;
+}
+
+.cat-disabled {
+  background: url(../../assets/funbox_logo.png) no-repeat, white;
+  opacity: 0.5;
+  background-position: left -24px top 208px;
+  background-size: 368px 360px;
+  color: #b3b3b3;
+}

@@ -1,0 +1,21 @@
+.home-title {
+  margin-bottom: 26px;
+
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 1px 1px #000;
+}
+
+.home-cats {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
